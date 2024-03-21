@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DayStar Daycare Events Demo</title>
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <style>
+      .highlight {
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h4>DayStar Daycare Events Demo</h4>
+      <p>Click the button to see events in action:</p>
+
+      <button id="myButton" class="btn waves-effect waves-light">
+        Click Me
+      </button>
+
+      <div
+        id="myDiv"
+        style="margin-top: 20px; padding: 10px; border: 1px solid #ccc"
+      >
+        Hover over me!
+      </div>
+
+      <form id="myForm" style="margin-top: 20px">
+        <label for="myInput">Type something:</label>
+
+        <input type="text" id="myInput" name="myInput" />
+
+        <button type="submit" class="btn waves-effect waves-light">
+          Submit
+        </button>
+      </form>
+
+      <p>Press any key:</p>
+
+      <div id="myOutput"></div>
+    </div>
+
+    <script src="/events.js"></script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  </body>
+</html>
